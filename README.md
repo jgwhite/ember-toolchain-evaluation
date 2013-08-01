@@ -1,4 +1,4 @@
-# Ember Toolchain Evaluation
+# Ember Toolchain Evaluation - Ember Tools
 
 Ember’s tooling story is getting better every day. This repo is a place to
 evaluate the current options, with notes on their relative merits. Each
@@ -7,11 +7,21 @@ build tool will get its own branch and notes in the README.
 Some factors for consideration:
 
 - **Documentation**  
-  How good is the documentation and community support?
+  - Excellent README
+  - Bang up to date with latest Ember release
 - **Maintainers**  
-  How approachable are the authors and maintainers?
+  - Ryan runs Ember 101, appeared on Ember Hot Seat, a frequent contributor
+  - Seems like a really nice guy
 - **Setup**  
-  How many steps from zero to a running test suite?
+  1. Install ember-tools
+  2. `ember create ...`
+  3. `ember build`
+  4. Add `js/application.js` to karma config
+  5. `karma start --single-run [FAIL]`
+  6. Add route
+  7. Add template
+  8. `ember build`
+  9. `karma start --single-run [PASS]`
 - **Preview**  
   How easy is it to boot a preview server?
 - **Testing**  

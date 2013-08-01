@@ -6,6 +6,7 @@ module.exports = function(config) {
     ],
 
     files: [
+      'js/application.js',
       'test/test_helper.js',
       'test/**/*_test.js'
     ],
