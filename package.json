@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/jgwhite/ember-toolchain-evaluation.git",
+  "devDependencies": {
+    "karma": "~0.9.7",
+    "karma-qunit": "~0.0.3"
+  }
+}
